@@ -20,7 +20,7 @@ func helloHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	fmt.Fprintln(w, "Hello World!")
+	fmt.Fprintln(w, "Hello World!\nWe are alive")
 }
 
 func formHandler(w http.ResponseWriter, r *http.Request) {
