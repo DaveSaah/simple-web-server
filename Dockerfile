@@ -7,6 +7,6 @@ COPY . .
 
 RUN go build -o web-server
 
-EXPOSE 8080
+EXPOSE 8000
 
 CMD [ "./web-server" ]
